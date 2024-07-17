@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 const AboutEvyx = () => {
   return (
-    <section id='عن-ايڤكس' className="container mx-auto p-5 md:p-20">
+    <section id='عن-ايڤكس' className="container mx-auto p-5 lg:p-20 md:p-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
        
-        <div className="flex flex-col justify-center items-start p-10">
+        <div className="flex flex-col justify-center items-start lg:p-10 p-4">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="text-[#2F4E8E]">عن </span> 
             <span className="text-[#DB965E]">إيڤكس</span>
@@ -29,7 +29,7 @@ const AboutEvyx = () => {
             width={617} 
             height={350}            
             quality={100}
-          className="rounded-lg shadow-lg w-full h-auto" 
+          className="rounded-lg shadow-lg w-full h-full" 
           />
         </div>
       </div>

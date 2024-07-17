@@ -2,13 +2,13 @@ import GoogleMap from "./ui/GoogleMap";
 
 const Offer = () => {
   return (
-    <section id="احصل-على-عرض" className="p-4 md:p-20 ">
+    <section id="احصل-على-عرض" >
       <div className="container mx-auto p-4">
-        <div className="flex flex-col lg:flex-row gap-12">
+        <div className="flex flex-col lg:flex-row lg:gap-12 md:gap-10">
           <div className="flex items-center h-96 lg:h-auto lg:w-1/2">
             <GoogleMap />
           </div>
-          <div className="flex  items-center lg:w-1/2 p-20 bg-white">
+          <div className="flex  items-center lg:w-1/2 p-4 md:p-20 bg-white">
             <div className="w-full max-w-6xl mx-auto">
               <h1 className="md:text-4xl text-3xl lg:text-5xl font-bold mb-4 my-4 lg:mb-6">
                 أحصل على إستشارتك مجانا!
