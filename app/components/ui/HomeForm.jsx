@@ -12,7 +12,7 @@ const HomeForm = () => {
   };;
 
   return (
-    <div className="w-full md:w-[398px] h-auto lg:p-6 md:p-4 p-3 bg-[#2F4E8E] bg-opacity-70 relative rounded-lg shadow-lg text-white">
+    <div className="w-full md:w-[400px] h-auto lg:p-6 md:p-4 p-3 bg-[#2F4E8E] bg-opacity-70 relative rounded-lg shadow-lg text-white">
       <h1 className="text-2xl lg:text-3xl font-bold  sm:mb-2 md:mb-3 lg:mb-5">تواصل معنا</h1>
       <form
         name="contact-form"

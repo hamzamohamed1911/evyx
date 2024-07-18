@@ -19,7 +19,6 @@ html, body {
   scroll-behavior: smooth;
 }
 
-/* Utility class to pause animations */
 @layer utilities {
   .paused {
     animation-play-state: paused;
@@ -34,11 +33,11 @@ html, body {
   padding: 20px;
 }
 .custom-leading-relaxed {
-  line-height: 1.625; /* تقريبًا يساوي leading-relaxed في Tailwind CSS */
+  line-height: 1.2; 
 }
 
 @media (min-width: 1024px) {
   .custom-leading-normal {
-    line-height: 1.5; /* تقريبًا يساوي lg:leading-normal في Tailwind CSS */
+    line-height: 1.5; 
   }
 }
