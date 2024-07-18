@@ -39,7 +39,7 @@ export default function MobileMenu() {
         <ul className="py-4 text-2xl font-[400] text-center">
           {links.map((link, index) => (
             <li key={index} className="py-2">
-              <Link href={link.href} onClick={closeMenu}>
+              <Link className="transition-transform duration-300 transform hover:scale-105 hover:text-red-500" href={link.href} onClick={closeMenu}>
                {link.text}
               </Link>
             </li>
