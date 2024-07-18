@@ -13,7 +13,7 @@ const HomeForm = () => {
 
   return (
     <div className="md:w-[398px] w-[388px] md:h-[360px] h-[340px] p-7 bg-[#2F4E8E] bg-opacity-70 relative rounded-lg shadow-lg text-white">
-      <h1 className="lg:text-2xl text-xl font-bold lg:my-4 md:my-3 sm:my-2 my-2">تواصل معنا</h1>
+      <h1 className="lg:text-2xl text-xl font-bold lg:my-4 md:my-3 sm:my-2 my-1">تواصل معنا</h1>
       <form
         name="contact-form"
         method="post"
