@@ -10,11 +10,11 @@ const Offer = () => {
           </div>
           <div className="flex  items-center lg:w-1/2 pt-6 md:p-20 bg-white">
             <div className="w-full max-w-6xl mx-auto">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6  leading-relaxed lg:leading-normal">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6 custom-leading-normal custom-leading-relaxed ">
       أحصل على إستشارتك مجانا!
     </h1>
 
-              <h1 className="md:text-2xl lg:text-3xl text-xl font-medium mb-8 my-8 lg:mb-6 leading-relaxed lg:leading-normal">
+              <h1 className="md:text-2xl lg:text-3xl text-xl font-medium mb-8 my-8 lg:mb-6  custom-leading-normal custom-leading-relaxed">
                 نحن جاهزون للإجابة الآن! قم بالتسجيل للحصول على استشارة مجانية.
               </h1>
               <form>
