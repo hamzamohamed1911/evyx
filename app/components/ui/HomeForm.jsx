@@ -46,7 +46,7 @@ const HomeForm = () => {
         <button
   type="submit"
   className="
-  px-6 py-3 gap-2 flex items-center bg-[#DB965E] text-white font-medium rounded-md hover:bg-[#f2a86c] transition duration-300
+  px-6 py-3 gap-2 flex items-center bg-[#DB965E] text-white font-medium rounded-md hover:bg-[#f2a86c] transition duration-300 lg:text-xl md:text-lg sm:text-md text-sm
   "
   disabled={isSubmitting}
 >
