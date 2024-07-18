@@ -1,6 +1,4 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/NavBar";
-import FixedWhatsApp from "./components/ui/FixedWhatsApp";
+
 import "./globals.css";
 
 export const metadata = {
@@ -12,10 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
       <body style={{ fontFamily: 'Almarai, sans-serif' }}>
-          <Navbar />
-          <FixedWhatsApp/>
+       
         {children}
-          <Footer/>
       </body>
     </html>
   );
