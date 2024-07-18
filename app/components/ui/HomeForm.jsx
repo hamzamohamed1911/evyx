@@ -13,7 +13,7 @@ const HomeForm = () => {
 
   return (
     <div className="md:w-[398px] w-[388px] md:h-[360px] h-[340px] p-7 bg-[#2F4E8E] bg-opacity-70 relative rounded-lg shadow-lg text-white">
-      <h1 className="text-2xl font-bold my-3">تواصل معنا</h1>
+      <h1 className="text-2xl font-bold lg:my-4 md:my-3 sm:my-2 my-2">تواصل معنا</h1>
       <form
         name="contact-form"
         method="post"
@@ -45,7 +45,7 @@ const HomeForm = () => {
         <div className="flex justify-end items-center py-5">
           <button
             type="submit"
-            className="w-[120px] md:text-lg text-base  bg-[#DB965E] hover:bg-[#f2a86c] py-2 px-2 rounded-md focus:outline-none focus:ring-2"
+            className="w-[120px] md:text-lg text-md text-base  bg-[#DB965E] hover:bg-[#f2a86c] py-2 px-2 rounded-md focus:outline-none focus:ring-2"
             disabled={isSubmitting}
           >
             {isSubmitting ? (
