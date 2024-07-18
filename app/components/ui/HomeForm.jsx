@@ -42,7 +42,7 @@ const HomeForm = () => {
             aria-label="رقم الهاتف"
           />
         </div>
-        <div className="flex justify-end items-center lg:py-5 md:py-3 py-2">
+        <div className="flex justify-end items-center ">
         <button
   type="submit"
   className="
