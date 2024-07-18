@@ -13,31 +13,31 @@ const HomeForm = () => {
 
   return (
     <div className="md:w-[398px] w-[388px] md:h-[360px] h-[340px] p-7 bg-[#2F4E8E] bg-opacity-70 relative rounded-lg shadow-lg text-white">
-      <h1 className="text-2xl font-bold lg:my-4 md:my-3 sm:my-2 my-2">تواصل معنا</h1>
+      <h1 className="lg:text-2xl text-xl font-bold lg:my-4 md:my-3 sm:my-2 my-2">تواصل معنا</h1>
       <form
         name="contact-form"
         method="post"
         action="https://script.google.com/macros/s/AKfycbxV7Mrl_Ou1mSsdOj9mJDIb80y2fXXYJCy_YZStZrppzgUlsGQcK4EO6LsfwfRdLK8OpQ/exec"
         onSubmit={handleSubmit}
       >
-        <div className="mb-4">
-          <label htmlFor="name" className="block text-lg my-1">الاسم</label>
+        <div className="mb-4 lg:text-lg text-md ">
+          <label htmlFor="name" className="block my-1">الاسم</label>
           <input
             type="text"
             id="name"
             name="name"
-            className="w-full text-black h-[44px] px-3 py-2 mt-1 text-lg border rounded-md focus:outline-none focus:ring-2"
+            className="w-full text-black h-[44px] px-3 py-2 mt-1  border rounded-md focus:outline-none focus:ring-2"
             required
             aria-label="الاسم"
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="phone" className="block text-lg my-1">رقم الهاتف</label>
+          <label htmlFor="phone" className="block  my-1">رقم الهاتف</label>
           <input
             type="text"
             id="phone"
             name="phone"
-            className="w-full text-black h-[44px] px-3 py-2 mt-1 text-lg border rounded-md focus:outline-none focus:ring-2"
+            className="w-full text-black h-[44px] px-3 py-2 mt-1  border rounded-md focus:outline-none focus:ring-2"
             required
             aria-label="رقم الهاتف"
           />
