@@ -4,7 +4,7 @@ import { ecommerce, landingPage, wordPress } from '../assets';
 
 const Products = () => {
   return (
-    <section className='lg:p-20 p-6' id="المنتجات">
+    <section className='mx-auto container   sm:p-6 p-6 py-8 lg:py-16' id="المنتجات">
       <div className='flex flex-col justify-center items-center'>
         <h1 className='text-2xl font-medium mb-4 leading-relaxed lg:leading-normal'>
           نمتلك خبرة طويلة في مجالنا، ولذلك نستطيع تقديم خدمات متميّزة لك.

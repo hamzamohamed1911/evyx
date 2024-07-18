@@ -14,14 +14,14 @@ const handleWhatsAppClick = () => {
 
 export default function Navbar() {
   return (
-    <header className="bg-white text-black py-4 px-4 fixed w-full z-50 shadow-md">
-      <nav className="container mx-auto h-[75px] flex justify-between items-center">
+    <header className="bg-white text-black py-4 lg:px-14 px-2 fixed w-full z-50 shadow-md">
+      <nav className=" mx-auto h-[75px] flex justify-between items-center">
         <Link href="/">
           <Image className='px-3 w-full' src={evyx} alt="RightLogo" height={65} width={75} />
         </Link>
 
         {/* Navigation Links (Desktop) */}
-        <ul className="hidden lg:flex md:font-[600] text-xl md:gap-10 md:items-center md:justify-center">
+        <ul className="hidden lg:flex md:font-[600] text-2xl md:gap-10 md:items-center md:justify-center">
           {links.map((link, index) => (
             <li key={index}>
               <Link className="transition-transform duration-300 transform  hover:text-[#DB965E]" href={link.href}>{link.text}</Link>

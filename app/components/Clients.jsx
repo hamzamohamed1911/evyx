@@ -2,7 +2,7 @@ import Slider from "./ui/Slider";
 
 const Clients = () => {
   return (
-    <section id="عملائنا" className="py-8 lg:py-16">
+    <section id="عملائنا" className="py-8 lg:py-16 ">
       <div className="  container mx-auto p-5 md:p-20">
         <div className="flex flex-col items-center justify-center mb-8 lg:mb-12">
           <h1 className="text-2xl lg:text-3xl font-medium mb-4 text-center leading-relaxed lg:leading-normal">

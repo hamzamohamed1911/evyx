@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
-      <body className='bg-[#fffdfc]' style={{ fontFamily: 'Almarai, sans-serif' }}>
+      <body style={{ fontFamily: 'Almarai, sans-serif' }}>
        
         {children}
       </body>

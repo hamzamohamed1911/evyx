@@ -4,7 +4,7 @@ import { groupIcon, netwrokIcon, noMoney, serverFree, writing } from '../assets'
 
 const Features = () => {
   return (
-    <section id="المميزات" className="p-5 md:p-10 lg:p-20">
+    <section id="المميزات" className="mx-auto container py-8 lg:py-16">
       <div className="flex flex-col justify-center items-center text-center">
         <h1 className="text-2xl md:text-3xl font-medium mb-4">
           حلول برمجية لا نهائية

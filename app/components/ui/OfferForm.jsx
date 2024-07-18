@@ -35,7 +35,6 @@ const OfferForm = () => {
   return (
     <form 
     name="contact-form"
-       
     onSubmit={handleSubmit}>
     <div className="mb-4 lg:mb-5 text-md lg:text-lg">
           <label htmlFor="name" className="block my-1 lg:my-2">الاسم</label>

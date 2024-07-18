@@ -6,13 +6,11 @@ import FixedWhatsApp from "../components/ui/FixedWhatsApp";
 
 export default function Layout({ children }) {
   return (
-    <html lang="ar" dir="rtl">
-      <body style={{ fontFamily: 'Almarai, sans-serif' }}>
+      <main >
           <Navbar />
           <FixedWhatsApp/>
         {children}
           <Footer/>
-      </body>
-    </html>
+      </main>
   );
 }

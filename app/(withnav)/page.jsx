@@ -7,7 +7,7 @@ import Products from "../components/Products";
 
 const Home = () => {
     return (
-        <main className='bg-[#fffdfc]'>
+        <main className='bg-[#fffdfc] '>
             <HomeSection/>
             <AboutEvyx/>
             <Products/>
