@@ -10,9 +10,10 @@ const Offer = () => {
           </div>
           <div className="flex  items-center lg:w-1/2 p-4 md:p-20 bg-white">
             <div className="w-full max-w-6xl mx-auto">
-              <h1 className="md:text-4xl text-3xl lg:text-5xl font-bold mb-4 my-4 lg:mb-6">
-                أحصل على إستشارتك مجانا!
-              </h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6 leading-relaxed lg:leading-loose">
+      أحصل على إستشارتك مجانا!
+    </h1>
+
               <h1 className="md:text-2xl lg:text-3xl text-xl font-medium mb-8 my-8 lg:mb-6">
                 نحن جاهزون للإجابة الآن! قم بالتسجيل للحصول على استشارة مجانية.
               </h1>
@@ -56,7 +57,7 @@ const Offer = () => {
                 <div className="flex lg:justify-end">
                   <button
                     type="submit"
-                    className="w-full lg:w-[233px] text-white lg:text-2xl md:text-xl text-lg  bg-[#DB965E] hover:bg-[#f2a86c] py-4 lg:py-6 rounded-lg focus:outline-none focus:ring-2"
+                    className="w-full lg:w-[233px] text-white lg:text-2xl md:text-xl text-lg  bg-[#DB965E] hover:bg-[#f2a86c] md:py-4 py-3 lg:py-5 rounded-lg focus:outline-none focus:ring-2"
                   >
                     احصل على عرض سعر
                   </button>

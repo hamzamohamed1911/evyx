@@ -45,7 +45,7 @@ const HomeForm = () => {
         <div className="flex justify-end items-center py-5">
           <button
             type="submit"
-            className="w-[120px] lg:text-lg md:text-md text-sm  bg-[#DB965E] hover:bg-[#f2a86c] py-2 px-2 rounded-md focus:outline-none focus:ring-2"
+            className="w-[120px] lg:text-lg md:text-md text-sm  bg-[#DB965E] hover:bg-[#f2a86c] lg:py-2 py-1 px-2 rounded-md focus:outline-none focus:ring-2"
             disabled={isSubmitting}
           >
             {isSubmitting ? (
