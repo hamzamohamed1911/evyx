@@ -18,7 +18,7 @@ export default function MobileMenu() {
 
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <button className="flex items-center  px-3 py-2 z-20 " onClick={toggleMenu}>
         {isOpen ? (
           <Image  className='z-20 ' src={close} alt="close" height={30} width={30}  />

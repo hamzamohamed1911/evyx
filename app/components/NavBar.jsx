@@ -21,7 +21,7 @@ export default function Navbar() {
         </Link>
 
         {/* Navigation Links (Desktop) */}
-        <ul className="hidden md:flex md:font-[600] text-xl md:gap-10 md:items-center md:justify-center">
+        <ul className="hidden lg:flex md:font-[600] text-xl md:gap-10 md:items-center md:justify-center">
           {links.map((link, index) => (
             <li key={index}>
               <Link className="transition-transform duration-300 transform  hover:text-[#DB965E]" href={link.href}>{link.text}</Link>
@@ -33,7 +33,7 @@ export default function Navbar() {
         <MobileMenu />
 
         {/* Right Logo */}
-        <Image src={whatsapp} onClick={handleWhatsAppClick} alt="whatsapplogo" height={40.56} width={40.56} className='hidden md:flex cursor-pointer transition-transform duration-300 transform hover:scale-110 w-16' />
+        <Image src={whatsapp} onClick={handleWhatsAppClick} alt="whatsapplogo" height={40.56} width={40.56} className='hidden lg:flex cursor-pointer transition-transform duration-300 transform hover:scale-110 w-16' />
       </nav>
     </header>
   );

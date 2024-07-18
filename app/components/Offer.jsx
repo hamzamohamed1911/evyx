@@ -56,7 +56,7 @@ const Offer = () => {
                 <div className="flex lg:justify-end">
                   <button
                     type="submit"
-                    className="w-full lg:w-[233px] text-white lg:text-2xl text-xl  bg-[#DB965E] hover:bg-[#f2a86c] py-4 lg:py-6 rounded-lg focus:outline-none focus:ring-2"
+                    className="w-full lg:w-[233px] text-white lg:text-2xl md:text-xl text-lg  bg-[#DB965E] hover:bg-[#f2a86c] py-4 lg:py-6 rounded-lg focus:outline-none focus:ring-2"
                   >
                     احصل على عرض سعر
                   </button>
