@@ -14,6 +14,7 @@ import ecommerce from './ECommerceWebsitespng.png'
 import hamburger from './hamburger.svg'
 import close from './close.svg'
 import evyx3 from './evyx3.png'
+import SuccessfulLogo from './Successful.png'
 
 
 
@@ -34,4 +35,4 @@ import elkahal from './elkahal.png'
 
 
 
-export { evyx3,backgroundImage,evyx ,groupIcon ,netwrokIcon ,noMoney ,serverFree  ,whatsapp ,writing ,aboutEvyx ,callus , wordPress , landingPage , ecommerce , ezzelmonofy , elkahal , eventastic ,horizon , global , craft , cetris ,  enove , arcsine , heroAcadmey , digitalsmile , hamburger , close}
+export { evyx3,backgroundImage,evyx ,groupIcon ,netwrokIcon ,noMoney ,serverFree  ,whatsapp ,writing ,aboutEvyx ,callus , wordPress , landingPage , ecommerce , ezzelmonofy , elkahal , eventastic ,horizon , global , craft , cetris ,  enove , arcsine , heroAcadmey , digitalsmile , hamburger , close , SuccessfulLogo}

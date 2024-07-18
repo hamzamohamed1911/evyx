@@ -10,50 +10,36 @@ const Offer = () => {
           </div>
           <div className="flex  items-center lg:w-1/2 pt-6 md:p-20 bg-white">
             <div className="w-full max-w-6xl mx-auto">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6 custom-leading-normal custom-leading-relaxed ">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6  leading-relaxed lg:leading-normal">
       أحصل على إستشارتك مجانا!
     </h1>
 
-              <h1 className="md:text-2xl lg:text-3xl text-xl font-medium mb-8 my-8 lg:mb-6  custom-leading-normal custom-leading-relaxed">
+              <h1 className="md:text-2xl lg:text-3xl text-xl font-medium mb-8 my-8 lg:mb-6 leading-relaxed lg:leading-normal">
                 نحن جاهزون للإجابة الآن! قم بالتسجيل للحصول على استشارة مجانية.
               </h1>
               <form>
-                <div className="mb-4 lg:mb-6">
-                  <label htmlFor="firstName" className="block text-lg">
-                    الاسم الاول
-                  </label>
-                  <input
-                    type="text"
-                    id="firstName"
-                    name="firstName"
-                    className="w-full h-[44px] px-3 py-2 mt-1 text-lg border rounded-md focus:outline-none focus:ring-2"
-                    required
-                  />
-                </div>
-                <div className="mb-4 lg:mb-6">
-                  <label htmlFor="lastName" className="block text-lg">
-                    الاسم الثاني
-                  </label>
-                  <input
-                    type="text"
-                    id="lastName"
-                    name="lastName"
-                    className="w-full h-[44px] px-3 py-2 mt-1 text-lg border rounded-md focus:outline-none focus:ring-2"
-                    required
-                  />
-                </div>
-                <div className="mb-4 lg:mb-6">
-                  <label htmlFor="phoneNumber" className="block text-lg">
-                    رقم الهاتف
-                  </label>
-                  <input
-                    type="number"
-                    id="phoneNumber"
-                    name="phoneNumber"
-                    className="w-full h-[44px] px-3 py-2 mt-1 text-lg border rounded-md focus:outline-none focus:ring-2"
-                    required
-                  />
-                </div>
+              <div className="mb-4 lg:mb-5 text-md lg:text-lg">
+          <label htmlFor="name" className="block my-1 lg:my-2">الاسم</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            className="w-full h-[44px] px-3 py-2 mt-1 text-black border rounded-md focus:outline-none focus:ring-2"
+            required
+            aria-label="الاسم"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="number" className="block my-1 lg:my-2">رقم الهاتف</label>
+          <input
+            type="text"
+            id="number"
+            name="number"
+            className="w-full h-[44px] px-3 py-2 mt-1 text-black border rounded-md focus:outline-none focus:ring-2"
+            required
+            aria-label="رقم الهاتف"
+          />
+        </div>
                 <div className="flex lg:justify-end">
                   <button
                     type="submit"
