@@ -15,7 +15,7 @@ const AboutEvyx = () => {
           <p className="md:text-xl text-xl lg:text-2xl my-6 leading-relaxed lg:leading-normal">
             وكالة تسويق إلكتروني تقدم خدمات متطورة في مجال التكنولوجيا، تساعد الشركات والمؤسسات على تحسين وتطوير وجودها الإلكتروني عبر مجموعة من الخدمات المختلفة. تتكون إيفيكس من مجموعة من المتخصصين الذين يعملون بجد لتحقيق أهداف عملائهم ونمو أعمالهم بشكل فعال.
           </p>
-          <Link href="tel:+201500002077" className="px-6 py-3 gap-2 flex items-center bg-[#DB965E] text-white font-medium rounded-md hover:bg-[#f2a86c] transition duration-300">
+          <Link href="#احصل-على-عرض" className="px-6 py-3 gap-2 flex items-center bg-[#DB965E] text-white font-medium rounded-md hover:bg-[#f2a86c] transition duration-300">
             <Image alt='call us' width={20} height={20} src={callus}/>    
             اتصل بنا الآن      
           </Link>

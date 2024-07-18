@@ -1,8 +1,8 @@
 "use client"
-import { useRouter } from 'next/navigation';
+import {  useRouter } from 'next/navigation';
 import { useState } from 'react';
 
-const HomeForm = () => {
+const OfferForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const router = useRouter();
 
@@ -32,16 +32,12 @@ const HomeForm = () => {
     }
   };
 
-
   return (
-    <div className="w-full md:w-[400px] h-auto lg:p-6 md:p-4 p-3 bg-[#2F4E8E] bg-opacity-70 relative rounded-lg shadow-lg text-white">
-      <h1 className="text-2xl lg:text-3xl font-bold sm:mb-2 md:mb-3 lg:mb-5">تواصل معنا</h1>
-      <form
-        name="contact-form"
+    <form 
+    name="contact-form"
        
-        onSubmit={handleSubmit}
-      >
-        <div className="mb-4 lg:mb-5 text-md lg:text-lg">
+    onSubmit={handleSubmit}>
+    <div className="mb-4 lg:mb-5 text-md lg:text-lg">
           <label htmlFor="name" className="block my-1 lg:my-2">الاسم</label>
           <input
             type="text"
@@ -61,12 +57,10 @@ const HomeForm = () => {
             required
           />
         </div>
-        <div className="flex justify-end items-center">
-          <button
-            type="submit"
-            className="
-              flex items-center gap-2 px-4 py-2 lg:px-6 lg:py-3 text-sm sm:text-md md:text-lg lg:text-xl bg-[#DB965E] text-white font-medium rounded-md hover:bg-[#f2a86c] transition duration-300
-            "
+                <div className="flex lg:justify-end">
+                 <button
+            className="w-full lg:w-[233px] text-white lg:text-2xl md:text-xl text-lg  bg-[#DB965E] hover:bg-[#f2a86c] md:py-4 py-3 lg:py-5 rounded-lg focus:outline-none focus:ring-2"
+
             disabled={isSubmitting}
           >
             {isSubmitting ? (
@@ -75,13 +69,12 @@ const HomeForm = () => {
                 viewBox="0 0 24 24"
               ></svg>
             ) : (
-              'دعنا نتصل بك'
+                'دعنا نتصل بك'
             )}
           </button>
-        </div>
-      </form>
-    </div>
-  );
-};
+                </div>
+              </form>
+  )
+}
 
-export default HomeForm;
+export default OfferForm

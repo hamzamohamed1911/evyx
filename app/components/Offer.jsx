@@ -1,4 +1,5 @@
 import GoogleMap from "./ui/GoogleMap";
+import OfferForm from "./ui/OfferForm";
 
 const Offer = () => {
   return (
@@ -17,38 +18,7 @@ const Offer = () => {
               <h1 className="md:text-2xl lg:text-3xl text-xl font-medium mb-8 my-8 lg:mb-6 leading-relaxed lg:leading-normal">
                 نحن جاهزون للإجابة الآن! قم بالتسجيل للحصول على استشارة مجانية.
               </h1>
-              <form>
-              <div className="mb-4 lg:mb-5 text-md lg:text-lg">
-          <label htmlFor="name" className="block my-1 lg:my-2">الاسم</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            className="w-full h-[44px] px-3 py-2 mt-1 text-black border rounded-md focus:outline-none focus:ring-2"
-            required
-            aria-label="الاسم"
-          />
-        </div>
-        <div className="mb-4">
-          <label htmlFor="number" className="block my-1 lg:my-2">رقم الهاتف</label>
-          <input
-            type="text"
-            id="number"
-            name="number"
-            className="w-full h-[44px] px-3 py-2 mt-1 text-black border rounded-md focus:outline-none focus:ring-2"
-            required
-            aria-label="رقم الهاتف"
-          />
-        </div>
-                <div className="flex lg:justify-end">
-                  <button
-                    type="submit"
-                    className="w-full lg:w-[233px] text-white lg:text-2xl md:text-xl text-lg  bg-[#DB965E] hover:bg-[#f2a86c] md:py-4 py-3 lg:py-5 rounded-lg focus:outline-none focus:ring-2"
-                  >
-                    احصل على عرض سعر
-                  </button>
-                </div>
-              </form>
+             <OfferForm/>
             </div>
           </div>
         </div>
