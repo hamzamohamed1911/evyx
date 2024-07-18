@@ -21,7 +21,7 @@ const Features = () => {
             DEDICATED SERVER FREE
           </h1>
           <div className="px-5">
-            <p className="text-[#6D7280] mt-4 text-center text-base md:text-xl lg:text-2xl">
+            <p className="text-[#6D7280] mt-4 text-center text-base md:text-xl lg:text-2xl leading-normal">
               تقدم لك ايڤكس سيرڤر مجاني أول سنة لاستضافة موقعك          
             </p>
           </div>
@@ -33,7 +33,7 @@ const Features = () => {
             FREE DOMAIN
           </h1>
           <div className="px-5">
-            <p className="text-[#6D7280] mt-4 text-center text-base md:text-xl lg:text-2xl">
+            <p className="text-[#6D7280] mt-4 text-center text-base md:text-xl lg:text-2xl leading-normal">
               تقدم ايڤكس خدمة الحصول على دومين مجانًا دون تكلفة أول سنة            
             </p>
           </div>
@@ -45,7 +45,7 @@ const Features = () => {
             NO HIDDEN FEES
           </h1>
           <div className="px-5">
-            <p className="text-[#6D7280] mt-4 text-center text-base md:text-xl lg:text-2xl">
+            <p className="text-[#6D7280] mt-4 text-center text-base md:text-xl lg:text-2xl leading-normal">
               لن يتم دفع أي رسوم اضافية خلال المشروع       
             </p>
           </div>

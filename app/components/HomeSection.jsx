@@ -18,10 +18,10 @@ const HomeSection = () => {
         />
             </div>
             {/* Content Section (Right Side) */}
-            <div className="flex-1 flex items-center justify-center md:justify-start z-20">
-                <div className="text-white text-center md:text-right">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-8">خبراء في الحلول البرمجية</h1>
-                    <p className="text-2xl md:text-4xl">شريكك في عالم التكنولوجيا</p>
+            <div className="flex-1 flex items-center justify-center lg:justify-start z-20">
+                <div className="text-white text-center lg:text-right">
+                    <h1 className="md:text-4xl text-3xl lg:text-6xl font-bold mb-4 md:mb-8 leading-normal">خبراء في الحلول البرمجية</h1>
+                    <p className="md:text-2xl text-xl lg:text-4xl">شريكك في عالم التكنولوجيا</p>
                 </div>
             </div>
             {/* Form Section (Left Side) */}

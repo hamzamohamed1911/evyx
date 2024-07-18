@@ -6,10 +6,10 @@ const Products = () => {
   return (
     <section className='lg:p-20 p-6' id="المنتجات">
       <div className='flex flex-col justify-center items-center'>
-        <h1 className='text-2xl font-medium mb-4'>
+        <h1 className='text-2xl font-medium mb-4 leading-relaxed lg:leading-normal'>
           نمتلك خبرة طويلة في مجالنا، ولذلك نستطيع تقديم خدمات متميّزة لك.
         </h1>
-        <h1 className='text-4xl font-bold text-[#2F4E8E] py-5'>
+        <h1 className='text-4xl font-bold text-[#2F4E8E] py-5 leading-relaxed lg:leading-normal'>
           انواع المواقع من ايڤكس
         </h1>
       </div>
