@@ -8,9 +8,9 @@ const Offer = () => {
           <div className="flex items-center h-96 lg:h-auto lg:w-1/2">
             <GoogleMap />
           </div>
-          <div className="flex  items-center lg:w-1/2 p-4 md:p-20 bg-white">
+          <div className="flex  items-center lg:w-1/2 pt-6 md:p-20 bg-white">
             <div className="w-full max-w-6xl mx-auto">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6 leading-relaxed lg:leading-normal">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6  leading-relaxed lg:leading-normal">
       أحصل على إستشارتك مجانا!
     </h1>
 

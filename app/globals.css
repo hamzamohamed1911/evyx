@@ -33,3 +33,12 @@ html, body {
   align-items: center;
   padding: 20px;
 }
+.custom-leading-relaxed {
+  line-height: 1.625; /* تقريبًا يساوي leading-relaxed في Tailwind CSS */
+}
+
+@media (min-width: 1024px) {
+  .custom-leading-normal {
+    line-height: 1.5; /* تقريبًا يساوي lg:leading-normal في Tailwind CSS */
+  }
+}
