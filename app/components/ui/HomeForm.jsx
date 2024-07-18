@@ -1,6 +1,16 @@
-import React from 'react';
+"use client"
+import { useState } from 'react';
 
 const HomeForm = () => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = (e) => {
+    setIsSubmitting(true);
+    setTimeout(() => {
+      setIsSubmitting(false);
+    }, 2000); 
+  };
+
   return (
     <div className="md:w-[398px] w-[388px] md:h-[360px] h-[340px] p-7 bg-[#2F4E8E] bg-opacity-70 relative rounded-lg shadow-lg text-white">
       <h1 className="text-2xl font-bold my-4">تواصل معنا</h1>
@@ -8,6 +18,7 @@ const HomeForm = () => {
         name="contact-form"
         method="post"
         action="https://script.google.com/macros/s/AKfycbxV7Mrl_Ou1mSsdOj9mJDIb80y2fXXYJCy_YZStZrppzgUlsGQcK4EO6LsfwfRdLK8OpQ/exec"
+        onSubmit={handleSubmit}
       >
         <div className="mb-4">
           <label htmlFor="name" className="block text-lg my-1">الاسم</label>
@@ -33,12 +44,18 @@ const HomeForm = () => {
         </div>
         <div className="flex justify-end items-center py-6">
           <button
-           type="submit"
-            value="Submit"
-            id="submit"
+            type="submit"
             className="w-[120px] text-lg bg-[#DB965E] hover:bg-[#f2a86c] py-2 px-2 rounded-md focus:outline-none focus:ring-2"
+            disabled={isSubmitting}
           >
-            دعنا نتصل بك
+            {isSubmitting ? (
+              <svg
+                className="animate-spin h-5 w-5 mr-3 border-t-2 border-white rounded-full inline-block"
+                viewBox="0 0 24 24"
+              ></svg>
+            ) : (
+              'دعنا نتصل بك'
+            )}
           </button>
         </div>
       </form>
@@ -47,3 +64,4 @@ const HomeForm = () => {
 };
 
 export default HomeForm;
+
