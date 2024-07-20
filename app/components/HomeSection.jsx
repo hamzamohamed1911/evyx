@@ -17,7 +17,7 @@ const HomeSection = () => {
         />
       </div>
 
-      <div className="container mx-auto   px-6 flex items-center justify-between flex-1 md:flex-row flex-col">
+      <div className="container mx-auto px-6 flex items-center justify-between flex-1 md:flex-row flex-col">
         {/* (Right Side) */}
 
         <div className="flex-1 flex items-center md:items-start z-20 h-[370px] md:self-end ">
