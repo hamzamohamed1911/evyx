@@ -68,7 +68,7 @@ const OfferForm = () => {
                 viewBox="0 0 24 24"
               ></svg>
             ) : (
-                'دعنا نتصل بك'
+                '  احصل على عرض سعر'
             )}
           </button>
                 </div>
