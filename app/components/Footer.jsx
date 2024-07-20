@@ -1,8 +1,8 @@
-import React from 'react';
-import { evyx } from '../assets';
-import Image from 'next/image';
-import Link from 'next/link';
-import { links } from '../constants';
+import React from "react";
+import { evyx } from "../assets";
+import Image from "next/image";
+import Link from "next/link";
+import { links } from "../constants";
 
 const Footer = () => {
   return (
@@ -30,7 +30,9 @@ const Footer = () => {
         </ul>
 
         <div className="text-center md:text-right mt-4 md:mt-0">
-          <p>&copy; {new Date().getFullYear()} Evyx LTD. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Evyx LTD. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
