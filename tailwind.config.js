@@ -14,8 +14,8 @@ module.exports = {
       },
       keyframes: {
         "loop-scroll": {
-          from: { transform: 'translateX(-100)' },
-          to: { transform: 'translateX(60%)' },
+          from: { transform: 'translateX(100%)' },
+          to: { transform: 'translateX(-100%)' },
         },
       },
     },

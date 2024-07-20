@@ -15,7 +15,7 @@ const handleWhatsAppClick = () => {
 export default function Navbar() {
   return (
     <header className="bg-white text-black py-4 lg:px-14 px-2 fixed w-full z-50 shadow-md">
-      <nav className=" mx-auto h-[75px] flex justify-between items-center">
+      <nav className="  h-[75px] flex justify-between items-center">
         <Link href="/">
           <Image className='px-3 w-full' src={evyx} alt="RightLogo" height={65} width={75} />
         </Link>

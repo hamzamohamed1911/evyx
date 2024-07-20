@@ -18,11 +18,7 @@ const HomeForm = () => {
         body: formData,
       
       });
-      console.log(formData)
-      console.log("form data",formData)
-
-
-
+   
       setIsSubmitting(false);
       router.push("/SuccessfulPage")
 
@@ -62,24 +58,25 @@ const HomeForm = () => {
             required
           />
         </div>
-        <div className="flex justify-end items-center py-4 ">
-          <button
-            type="submit"
-            className="
-              flex items-center gap-2 px-4 py-2 lg:px-6 lg:py-3 text-sm sm:text-md md:text-lg lg:text-2xl bg-[#DB965E] text-white font-medium rounded-md hover:bg-[#f2a86c] transition duration-300
-            "
-            disabled={isSubmitting}
-          >
-            {isSubmitting ? (
-              <svg
-                className="inline-block w-5 h-5 mr-3 animate-spin border-t-2 border-white rounded-full"
-                viewBox="0 0 24 24"
-              ></svg>
-            ) : (
-              'دعنا نتصل بك'
-            )}
-          </button>
-        </div>
+    <div className="flex justify-end items-center py-4">
+  <button
+    type="submit"
+    className="
+      flex items-center justify-center gap-2 w-[180px] px-4 py-2 lg:px-6 lg:py-3 text-sm sm:text-md md:text-lg lg:text-2xl bg-[#DB965E] text-white font-medium rounded-md hover:bg-[#f2a86c] transition duration-300
+    "
+    disabled={isSubmitting}
+  >
+    {isSubmitting ? (
+       <svg
+       className="inline-block w-5 h-5 mr-3 animate-spin border-t-2 border-white rounded-full"
+       viewBox="0 0 24 24"
+     ></svg>
+    ) : (
+      'دعنا نتصل بك'
+    )}
+  </button>
+</div>
+
       </form>
     </div>
   );
