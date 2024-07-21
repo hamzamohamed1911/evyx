@@ -1,0 +1,15 @@
+/* Slider.module.css */
+
+.swiperContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .swiperSlide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto; 
+  }
+  

@@ -4,7 +4,10 @@ import HomeForm from "./ui/HomeForm";
 
 const HomeSection = () => {
   return (
-    <section id="/" className="relative h-screen flex flex-col justify-end  md:flex-row">
+    <section
+      id="/"
+      className="relative h-screen flex flex-col justify-end  md:flex-row"
+    >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent to-blue-900 opacity-50 z-10"></div>
@@ -39,4 +42,3 @@ const HomeSection = () => {
 };
 
 export default HomeSection;
- 
