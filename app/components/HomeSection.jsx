@@ -19,7 +19,6 @@ const HomeSection = () => {
           quality={100}
         />
       </div>
-
       <div className="container mx-auto px-6 flex items-center justify-between flex-1 md:flex-row flex-col">
         {/* (Right Side) */}
 
@@ -40,5 +39,4 @@ const HomeSection = () => {
     </section>
   );
 };
-
 export default HomeSection;
