@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-center bg-gray-100">
-      <h1 className="text-[260px] font-bold text-[#DB965E]">404</h1>
+      <h1 className="text-[260px] font-bold text-[#DB965E] p-6">404</h1>
       <h2 className="text-xl lg:text-3xl font-bold leading-relaxed lg:leading-normal my-5">
         لم يتم العثور على الصفحة
       </h2>
