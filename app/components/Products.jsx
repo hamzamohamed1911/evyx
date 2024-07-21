@@ -19,7 +19,7 @@ const Products = () => {
             <Image src={ecommerce} alt='ecommerce' width={0} height={0} />
           </div>
           <h1 className='text-center font-bold text-3xl mt-6'>E-Commerce Websites</h1>
-          <h2 className='text-[#DB965E] mt-4 font-bold text-2xl'> تبدأ من $ 300   </h2>
+          <h2 className='text-[#DB965E] mt-4 font-bold text-2xl'> تبدأ من $ 500   </h2>
         </div>
         <div className=' w-full flex flex-col items-center'>
           <div className='border-2 border-black rounded-md'>
@@ -33,7 +33,7 @@ const Products = () => {
             <Image src={wordPress} alt='wordPress' width={0} height={0}  />
           </div>
           <h1 className='text-center font-bold text-3xl mt-6'>WordPress Portfolio</h1>
-          <h2 className='text-[#DB965E] mt-4 font-bold text-2xl'>تبدأ من $ 500  </h2>
+          <h2 className='text-[#DB965E] mt-4 font-bold text-2xl'> تبدأ من $ 300   </h2>
         </div>
       </div>
     </section>

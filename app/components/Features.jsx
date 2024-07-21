@@ -15,7 +15,7 @@ const Features = () => {
       </div>
 
       <div className="flex justify-center flex-wrap lg:gap-24 md:gap-18 gap-6 py-10">
-        <div className=" w-[395px] h-[230px] flex flex-col items-center bg-white rounded-md ">
+        <div className=" w-[395px] h-[230px] flex flex-col items-center p-6  bg-white rounded-md ">
           <Image src={serverFree} alt="serverFree" width={72} height={72}  />
           <h1 className="text-center font-bold text-xl md:text-2xl lg:text-3xl mt-6">
             DEDICATED SERVER FREE
@@ -27,7 +27,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="w-[395px] h-[230px] flex flex-col items-center bg-white rounded-md">
+        <div className="w-[395px] h-[230px] flex flex-col items-center p-6 rounded-md bg-white">
           <Image src={groupIcon} alt="groupIcon" width={72} height={72}  />
           <h1 className="text-center font-bold text-xl md:text-2xl lg:text-3xl mt-6">
             FREE DOMAIN
@@ -39,7 +39,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className=" w-[395px] h-[230px] flex flex-col items-center bg-white rounded-md">
+        <div className=" w-[395px] h-[230px] flex flex-col items-center p-6  bg-white rounded-md">
           <Image src={noMoney} alt="noMoney" width={72} height={72}   />
           <h1 className="text-center font-bold text-xl md:text-2xl lg:text-3xl mt-6">
             NO HIDDEN FEES
@@ -50,7 +50,7 @@ const Features = () => {
             </p>
           </div>
         </div>
-        <div className=" w-[395px] h-[230px] flex flex-col items-center bg-white rounded-md">
+        <div className=" w-[395px] h-[230px] flex flex-col items-center p-6  bg-white rounded-md">
       <Image src={netwrokIcon} alt="netwrokIcon" width={72} height={72}  />
           <h1 className="text-center font-bold text-xl md:text-2xl lg:text-3xl mt-6">
             SERVER UPTIME 99% GUARANTEE
@@ -62,7 +62,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className=" w-[395px] h-[230px] flex flex-col items-center bg-white rounded-md">
+        <div className=" w-[395px] h-[230px] flex flex-col items-center p-6  bg-white rounded-md">
           <Image src={writing} alt="writing" width={72} height={72}   />
           <h1 className="text-center font-bold text-xl md:text-2xl lg:text-3xl mt-6">
             DATA ENTRY FREE

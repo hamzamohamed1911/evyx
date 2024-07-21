@@ -9,7 +9,7 @@ const Offer = () => {
           <div className="flex items-center h-96 lg:h-auto lg:w-1/2">
             <GoogleMap />
           </div>
-          <div className="flex  items-center lg:w-1/2 pt-10  bg-white">
+          <div className="flex  items-center lg:w-1/2 pt-10 lg:p-10 bg-white rounded-md">
             <div className="w-full ">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6  leading-relaxed lg:leading-normal">
              أحصل على إستشارتك مجانا!
