@@ -20,7 +20,7 @@ const AboutEvyx = () => {
           </p>
           <Link
             href="#احصل-على-عرض"
-            className="px-6 py-5 gap-2 flex items-center bg-[#DB965E] text-white font-medium text-lg rounded-md hover:bg-[#f2a86c] transition duration-300"
+            className="md:px-6 px-4 md:py-5 py-3 gap-2 flex items-center bg-[#DB965E] text-white font-medium text-lg rounded-md hover:bg-[#f2a86c] transition duration-300"
           >
             <Image alt="call us" width={20} height={20} src={callus} />
             اتصل بنا الآن
