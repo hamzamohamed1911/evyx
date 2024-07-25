@@ -19,7 +19,7 @@ export default function MobileMenu() {
   return (
     <div className="lg:hidden">
       <button
-        className="flex items-center  px-3 py-2 z-20 "
+        className="flex items-center   py-2 z-20 "
         onClick={toggleMenu}
       >
         {isOpen ? (
