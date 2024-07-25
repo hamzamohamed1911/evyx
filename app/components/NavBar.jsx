@@ -16,13 +16,14 @@ export default function Navbar() {
     <header className="bg-white text-black py-4 lg:px-14 px-2 fixed w-full z-50 shadow-md">
       <nav className="  h-[75px] flex justify-between items-center">
         <Link href="/">
-          <Image
-            className="px-3 w-full"
-            src={evyx}
-            alt="RightLogo"
-            height={65}
-            width={75}
-          />
+        <Image
+          className="w-20 h-auto sm:w-24 md:w-28 lg:w-36 "
+          src={evyx}
+          alt="Evyx Logo"
+          height={65}
+          width={75}
+          layout="intrinsic"
+        />
         </Link>
 
         {/* Navigation Links (Desktop) */}

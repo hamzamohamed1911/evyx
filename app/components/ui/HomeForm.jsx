@@ -30,7 +30,7 @@ const HomeForm = () => {
   };
 
   return (
-    <div className="w-auto md:self-end md:h-auto h-[350px] lg:p-8 md:p-5 p-4 bg-[#2F4E8E] bg-opacity-70 relative rounded-lg shadow-lg text-white">
+    <div className="w-auto md:self-end md:h-auto h-[350px] lg:p-8 md:p-5 p-4 md:mb-0 mb-6  bg-[#2F4E8E] bg-opacity-70 relative rounded-lg shadow-lg text-white">
       <h1 className="text-2xl lg:text-4xl font-bold sm:mb-2 md:mb-3 lg:mb-5">
         تواصل معنا
       </h1>
