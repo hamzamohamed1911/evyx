@@ -7,14 +7,14 @@ import Products from "../components/Products";
 
 const Home = () => {
     return (
-        <main className='bg-[#fffdfc] '>
+        <div className='bg-[#fffdfc] '>
             <HomeSection/>
             <AboutEvyx/>
             <Products/>
             <Features/>
             <Clients/>
             <Offer/>
-        </main>
+        </div>
     );
 };
 

@@ -16,14 +16,15 @@ export default function Navbar() {
     <header className="bg-white text-black py-4 lg:px-14 px-4 fixed w-full z-50 shadow-md">
       <nav className=" lg:h-[75px] h-[60px] flex justify-between items-center">
         <Link href="/">
-          <Image
-            className="w-20 h-auto sm:w-24 md:w-28 lg:w-36 "
-            src={evyx}
-            alt="Evyx Logo"
-            height={65}
-            width={75}
-            layout="intrinsic"
-          />
+        <Image
+  src={evyx}
+  alt="Evyx Logo"
+  height={65}
+  width={75}
+  className="w-20 h-auto sm:w-24 md:w-28 lg:w-36"
+  layout="intrinsic" // Use layout directly if needed
+/>
+
         </Link>
 
         {/* Navigation Links (Desktop) */}
@@ -45,13 +46,15 @@ export default function Navbar() {
 
         {/* Right Logo */}
         <Image
-          src={whatsapp}
-          onClick={handleWhatsAppClick}
-          alt="whatsapplogo"
-          height={40.56}
-          width={40.56}
-          className="hidden lg:flex cursor-pointer transition-transform duration-300 transform hover:scale-110 w-16"
-        />
+  src={whatsapp}
+  onClick={handleWhatsAppClick}
+  alt="whatsapplogo"
+  height={40.56}
+  width={40.56}
+  className="hidden lg:flex cursor-pointer transition-transform duration-300 transform hover:scale-110 w-16"
+  layout="fixed" // or other appropriate layout type
+/>
+
       </nav>
     </header>
   );

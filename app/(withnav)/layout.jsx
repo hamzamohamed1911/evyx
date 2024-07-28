@@ -4,11 +4,13 @@ import FixedWhatsApp from "../components/ui/FixedWhatsApp";
 
 export default function Layout({ children }) {
   return (
-    <main>
+    <>
       <Navbar />
-      <FixedWhatsApp />
-      {children}
+      <main>
+        <FixedWhatsApp />
+        {children}
+      </main>
       <Footer />
-    </main>
+    </>
   );
 }
