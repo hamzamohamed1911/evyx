@@ -1,4 +1,5 @@
-import "./globals.css";
+import { GoogleTagManager } from '@next/third-parties/google';
+import './globals.css';
 
 export const metadata = {
   title: "Evyx",
@@ -9,7 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
-      <body style={{ fontFamily: "Almarai, sans-serif" }}>{children}</body>
+      <GoogleTagManager gtmId="GTM-WN59CD72" />
+      <body style={{ fontFamily: "Almarai, sans-serif" }}>
+        {children}
+        </body>
     </html>
   );
 }

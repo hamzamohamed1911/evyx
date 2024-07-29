@@ -6,10 +6,8 @@ export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <main>
         <FixedWhatsApp />
         {children}
-      </main>
       <Footer />
     </>
   );
