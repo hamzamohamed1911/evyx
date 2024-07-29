@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { evyx, whatsapp } from "../assets";
+import { evyx, whatsapp } from "../../public";
 import { links } from "../constants";
 import MobileMenu from "./ui/MobileMenu";
 const phoneNumber = "201500002077";
@@ -22,7 +22,6 @@ export default function Navbar() {
   height={65}
   width={75}
   className="w-20 h-auto sm:w-24 md:w-28 lg:w-36"
-  layout="intrinsic" // Use layout directly if needed
 />
 
         </Link>
@@ -52,7 +51,6 @@ export default function Navbar() {
   height={40.56}
   width={40.56}
   className="hidden lg:flex cursor-pointer transition-transform duration-300 transform hover:scale-110 w-16"
-  layout="fixed" // or other appropriate layout type
 />
 
       </nav>

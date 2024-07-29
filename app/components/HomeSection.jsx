@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { backgroundImage } from "../assets";
+import { backgroundImage } from "../../public";
 import HomeForm from "./ui/HomeForm";
 
 const HomeSection = () => {

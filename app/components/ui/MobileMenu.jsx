@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { close, hamburger } from "@/app/assets";
+import { close, hamburger } from "@/public";
 import { links } from "@/app/constants";
 
 export default function MobileMenu() {

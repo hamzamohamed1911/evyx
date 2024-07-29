@@ -1,5 +1,5 @@
 "use client";
-import { whatsapp } from "@/app/assets";
+import { whatsapp } from "@/public";
 import Image from "next/image";
 
 const FixedWhatsApp = () => {

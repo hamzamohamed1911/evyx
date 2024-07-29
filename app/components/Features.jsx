@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image'; 
-import { groupIcon, netwrokIcon, noMoney, serverFree, writing } from '../assets';
+import { groupIcon, netwrokIcon, noMoney, serverFree, writing } from '../../public';
 
 const Features = () => {
   return (
@@ -15,8 +15,9 @@ const Features = () => {
       </div>
 
       <div className="flex justify-center flex-wrap lg:gap-24 md:gap-18 gap-6 py-10">
-        <div className=" w-[395px] h-[230px] flex flex-col items-center p-6  bg-white rounded-md ">
-          <Image src={serverFree} alt="serverFree" width={72} height={72}  />
+        
+        <div className="w-[395px] h-[230px] flex flex-col items-center p-6 rounded-md bg-white">
+          <Image style={{height:"auto" ,width: "auto"}} src={serverFree} alt="serverFree" width={72} height={72}  />
           <h1 className="text-center font-bold text-xl md:text-2xl lg:text-3xl mt-6">
             DEDICATED SERVER FREE
           </h1>

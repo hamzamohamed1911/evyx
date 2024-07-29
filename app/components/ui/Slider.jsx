@@ -42,7 +42,7 @@ const Slider = () => {
       >
         {ourCustomers.map((customer) => (
           <SwiperSlide key={customer.id} className={styles.swiperSlide}>
-            <div className="flex justify-center items-center h-full w-full"> 
+            <div  className="flex justify-center items-center h-full w-full"> 
               <Image
                 src={customer.image}
                 alt={customer.name}
@@ -51,6 +51,7 @@ const Slider = () => {
                 width={190}
                 height={80}
                 className="mx-auto"
+                style={{ width: 'auto', height: 'auto' }}
               />
             </div>
           </SwiperSlide>

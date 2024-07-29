@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { aboutEvyx, callus } from "../assets";
+import { aboutEvyx, callus } from "../../public";
 import Link from "next/link";
 
 const AboutEvyx = () => {

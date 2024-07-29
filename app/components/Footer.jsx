@@ -1,5 +1,5 @@
 import React from "react";
-import { evyx } from "../assets";
+import { evyx } from "../../public";
 import Image from "next/image";
 import Link from "next/link";
 import { links } from "../constants";
@@ -11,11 +11,10 @@ const Footer = () => {
         <Link href="/">
           <Image
             src={evyx}
-            alt="evyx Logo"
-            width={70}
-            height={50}
-            quality={100}
-            className="w-full mt-4 md:mt-0"
+            alt="Evyx Logo"
+            height={65}
+            width={75}
+            className="w-20 h-auto sm:w-24 md:w-28 lg:w-36"
           />
         </Link>
 

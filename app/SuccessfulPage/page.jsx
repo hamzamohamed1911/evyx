@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { SuccessfulLogo } from "../assets";
+import { SuccessfulLogo } from "../../public";
 
 const SuccessPage = () => {
   return (

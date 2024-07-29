@@ -1,4 +1,4 @@
-import { arcsine, cetris, craft, digitalsmile, elkahal, enove, eventastic, ezzelmonofy, heroAcadmey, horizon ,global} from "../assets";
+import { arcsine, cetris, craft, digitalsmile, elkahal, enove, eventastic, ezzelmonofy, heroAcadmey, horizon ,global} from "../../public";
 
 export const links = [
     { href: '/', text: 'الرئيسية' },

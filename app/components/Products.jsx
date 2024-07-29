@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { ecommerce, landingPage, wordPress } from '../assets';
+import { ecommerce, landingPage, wordPress } from '../../public';
 
 const Products = () => {
   return (
